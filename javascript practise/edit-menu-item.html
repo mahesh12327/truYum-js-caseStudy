@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>truYum_edit</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="script.js"></script>
+</head>
+<body onload="Details()">
+        <div class="col-2_header"><h1>truYum</h1></div>
+        <div class="col-2_header"><p>menu</p></div>
+    <div id="menu_edit">
+        <form name="truForm" onsubmit="return validateForm()" method="POST">
+            <label id="result"><b>Edit Menu Item</b></label><br><br>
+            <label for="name">Name</label><br>
+            <div id="input_name_box">
+                <input type="text" id="name" name="name" placeholder="Enter name"><br><br>
+            </div>
+            <div class=col-4>
+                <label for="price">Price(Rs.)</label><br>
+                    <input type="text" id="price" name="price" placeholder="Enter price">
+            </div>
+            <div class=col-4>
+                <label >Active</label><br>
+                    <input type="radio" id="Yes" name="active" value="Yes"> Yes
+                    <input type="radio" id="No" name="active" value="No"> No
+            </div>
+            <div class=col-4>
+            <label for="date">Date of Launch</label><br>
+                <input type="text" id="date" name="date" placeholder="Enter date">
+            </div>
+            <div class=col-4>
+                <label for="category">Category</label><br>
+                    <select name="category" id="category">
+                    <option value="Default" selected>Choose</option>
+                    <option value="Main Course">Main Course</option>
+                    <option value="Starters">Starters</option>
+                    <option value="Dessert">Dessert</option>
+                    <option value="Drinks">Drinks</option>
+                    </select>
+            </div>
+            <br><br><br>
+            <input type="checkbox" id="free_delivery" name="free_delivery" value="free_delivery">
+                <label for="free_delivery">Free Delivery</label><br>
+            <button type="submit" id="save_btn">Save</button>
+          </form> 
+          <br>
+          <a href="admin_menu.html">Back</a>
+    </div>
+    <div id="footer">
+        <p>Copyright &COPY; 2020</p>
+    </div>
+</body>
+</html>

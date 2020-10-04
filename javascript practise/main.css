@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+}
+#user_role{
+    background-color: darkblue;
+    margin: 0px;
+    padding-left: 80px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    color: floralwhite;
+}
+.col-2_header{
+    background-color: darkblue;
+    margin: 0px;
+    width: 49%;
+    float: left;
+    color: floralwhite;
+    font-size: 20px;
+}
+.col-2_header h1{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+.col-2_header p{
+    padding-top: 43px;
+    padding-left: 600px;
+    padding-bottom: 54px;
+}
+#options {
+    padding-left: 700px;
+    padding-top: 200px;
+    padding-bottom: 510px;
+}
+#options h1{
+    color: whitesmoke;
+    background-color:rgb(0, 112, 150);
+    width: 12%;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+a :hover{
+    background-color: rgb(34, 154, 194);
+}
+#menu_customer {
+    padding-left: 700px;
+    padding-top: 200px;
+    padding-bottom: 460px;
+}
+#menu_admin {
+    padding-left: 700px;
+    padding-top: 200px;
+    padding-bottom: 460px;
+}
+#menu_edit {
+    font-family: sans-serif;
+    padding-left: 500px;
+    padding-top: 370px;
+    padding-bottom: 310px;
+}
+#footer p{
+    background-color: slategray;
+    display: block;
+    padding: 20px;
+    margin: 0px;
+}
+#input_name_box input{
+    width: 42.75%;
+}
+.col-4{
+    font-family: sans-serif;
+    display: block;
+    width: 12%;
+    float: left;
+}
+#free_delivery{
+    width: 15px;
+    height: 15px;
+}
+#save_btn{
+    margin-top: 10px;
+    padding: 15px 40px;
+    font-weight: 100;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+#edit_status{
+    padding-left: 650px;
+    padding-top: 230px;
+    padding-bottom: 560px;
+    font-family: sans-serif;
+}
+#edit_status p{
+    color: rgb(14, 184, 14);
+    font-size: large;
+}
+#table_contain{
+    padding-left: 200px;
+    padding-bottom:  520px;
+}
+.status{
+    color: rgb(13, 175, 13);
+}
+a{
+    background-color:rgb(71, 182, 190);
+    color: whitesmoke;
+    padding: 1px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: dodgerblue;
+}
